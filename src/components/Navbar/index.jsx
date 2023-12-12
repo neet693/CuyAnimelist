@@ -1,5 +1,6 @@
 import Link from "next/link";
 import InputSearch from "./InputSearch";
+import UserBtnLogin from "./UserBtnLogin";
 
 const Navbar = () => {
   return (
@@ -9,6 +10,7 @@ const Navbar = () => {
           CUYANIMELIST
         </Link>
         <InputSearch />
+        <UserBtnLogin />
       </div>
     </header>
   );
